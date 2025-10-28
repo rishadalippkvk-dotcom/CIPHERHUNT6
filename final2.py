@@ -919,8 +919,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_1_answer"],
         "security_riddle": "I'm odoru with taiyō",
         "security_key": answers["level_1_security_key"],
-        "hint": "💡 Where you freshen up",
-        "security_hint": "💡 Academic integrity violation",
+        "hint": "💡 First word starts with 'w' and it has 7 letters",
+        "security_hint": "No hints are available.",
         "category": "Campus Riddle",
         "difficulty": "easy",
         "points": 10
@@ -930,8 +930,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_2_answer"],
         "security_riddle": "My heart is full of life",
         "security_key": answers["level_2_security_key"],
-        "hint": "💡 Entry point to campus",
-        "security_hint": "💡 IDE stands for Integrated Development Environment",
+        "hint": "No hints are available.",
+        "security_hint": "No hints are available.",
         "category": "Campus Riddle",
         "difficulty": "medium",
         "points": 15
@@ -941,19 +941,19 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_3_answer"],
         "security_riddle": "The secret lies where I don’t display",
         "security_key": answers["level_3_security_key"],
-        "hint": "💡 Central meeting place",
-        "security_hint": "💡 Reverse of IP - Protocol for network communication",
+        "hint": "💡 First word starts with 'n' and second word starts with 'b'.",
+        "security_hint": "💡 Reverse ",
         "category": "Campus Riddle",
         "difficulty": "hard",
         "points": 20
     },
     {
-        "question": "A man who is always surrounded by numbers.(2 words)",
+        "question": "A man who is always surrounded by numbers.(10 letters)",
         "answer": answers["level_4_answer"],
-        "security_riddle": "Go and ask him",
+        "security_riddle": "Go and ask him 'സാധനം കയ്യിലുണ്ടോ... ?? '.",
         "security_key": answers["level_4_security_key"],
-        "hint": "💡 Think of a teacher who loves math",
-        "security_hint": "💡 A short code",
+        "hint": "💡 First letter starts with 'a'.",
+        "security_hint": "No hints are available.",
         "category": "Campus Riddle",
         "difficulty": "medium",
         "points": 15
@@ -963,8 +963,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_5_answer"],
         "security_riddle": "I have a talent, but I don't use it",
         "security_key": answers["level_5_security_key"],
-        "hint": "💡 Where sports are played",
-        "security_hint": "💡 Father of Artificial Intelligence",
+        "hint": "💡 First word starts with 's'.",
+        "security_hint": "No hints are available.",
         "category": "Campus Riddle",
         "difficulty": "medium",
         "points": 15
@@ -974,8 +974,8 @@ QUESTIONS: List[Dict] = [
         "answer": answers["level_6_answer"],
         "security_riddle": "Between one spin and one swing",
         "security_key": answers["level_6_security_key"],
-        "hint": "💡 Where students eat and socialize",
-        "security_hint": "💡 JavaScript debugging function",
+        "hint": "No hints are available.",
+        "security_hint": "No hints are available.",
         "category": "Campus Riddle",
         "difficulty": "hard",
         "points": 20
@@ -3544,4 +3544,5 @@ st.markdown("""
     <p style="font-size: 1rem;">Celebrating Open Source • Building Digital Freedom</p>
     <p style="font-size: 0.9rem; margin-top: 15px;">🔐 Elite Two-Phase Challenge System</p>
 </div>
+
 """, unsafe_allow_html=True)
