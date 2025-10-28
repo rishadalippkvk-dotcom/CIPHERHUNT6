@@ -12,7 +12,7 @@ level_2_answer = "Lift"
 level_2_security_key = "IDE"
 
 # Level 3
-level_3_answer = "College Name Board"
+level_3_answer = "Name Board"
 level_3_security_key = "TCP/IP"
 
 # Level 4
@@ -25,4 +25,5 @@ level_5_security_key = "John McCarthy"
 
 # Level 6
 level_6_answer = "Canteen"
+
 level_6_security_key = "console.log()"
